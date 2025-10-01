@@ -24,7 +24,8 @@
     "format": "prettier . --check",
     "format:write": "prettier . --write",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "http": "http-server . -c-1 -p 8080"
   },
   "devDependencies": {
     "@types/node": "^24.6.1",
@@ -143,6 +144,7 @@
     "has-tostringtag": "^1.0.2",
     "hasown": "^2.0.2",
     "html-escaper": "^2.0.2",
+    "http-server": "^14.1.1",
     "ignore": "^7.0.5",
     "import-fresh": "^3.3.1",
     "imurmurhash": "^0.1.4",
